@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var pos, msg;
+        pos = parseInt(prompt("Digite sua colocação"))
+
+
+        switch(pos){
+            case 1:
+                msg="Primeiro lugar <br>Medalha de ouro<br>";
+                break;
+            case 2:
+                msg="Segundo lugar <br>Medalha de prata>br>";
+                break;
+            case 3:
+                msg="Terceiro lugar <br>Medalha de bronze<br>"
+                break;
+            default:
+                msg="Não foi obteve colocação"
+            }
+
+            
+            document.write(msg)
+
+    </script>
+    
+</body>
+</html>
